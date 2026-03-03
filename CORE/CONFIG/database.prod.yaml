@@ -1,0 +1,18 @@
+connections:
+  operational_db:
+    engine: mssql
+    driver: ODBC Driver 17 for SQL Server
+    host: 172.16.0.33
+    port: 1433
+    database: HOSVITAL
+    user: CONSULTA
+    password: Cl1nic4Especialistas2022
+
+  warehouse_db:
+    engine: mysql
+    driver: pymysql
+    host: localhost
+    port: 3306
+    database: WHCLIESP
+    user: Pipeline
+    password: Pipeline_User_Master&&

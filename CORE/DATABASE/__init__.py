@@ -1,0 +1,1 @@
+from CORE.DATABASE.factory import get_database
